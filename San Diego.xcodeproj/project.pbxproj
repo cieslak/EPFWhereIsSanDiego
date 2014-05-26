@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B1FCD151933F885008F333D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1FCD141933F885008F333D /* Foundation.framework */; };
+		2B1FCD171933F885008F333D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1FCD161933F885008F333D /* CoreGraphics.framework */; };
+		2B1FCD191933F885008F333D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1FCD181933F885008F333D /* UIKit.framework */; };
+		2B1FCD1F1933F885008F333D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FCD1D1933F885008F333D /* InfoPlist.strings */; };
+		2B1FCD211933F885008F333D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FCD201933F885008F333D /* main.m */; };
+		2B1FCD251933F885008F333D /* WSDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FCD241933F885008F333D /* WSDAppDelegate.m */; };
+		2B1FCD281933F885008F333D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FCD261933F885008F333D /* Main_iPhone.storyboard */; };
+		2B1FCD2B1933F885008F333D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FCD291933F885008F333D /* Main_iPad.storyboard */; };
+		2B1FCD2E1933F885008F333D /* WSDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FCD2D1933F885008F333D /* WSDViewController.m */; };
+		2B1FCD301933F885008F333D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FCD2F1933F885008F333D /* Images.xcassets */; };
+		2B1FCD371933F885008F333D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1FCD361933F885008F333D /* XCTest.framework */; };
+		2B1FCD381933F885008F333D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1FCD141933F885008F333D /* Foundation.framework */; };
+		2B1FCD391933F885008F333D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1FCD181933F885008F333D /* UIKit.framework */; };
+		2B1FCD411933F885008F333D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FCD3F1933F885008F333D /* InfoPlist.strings */; };
+		2B1FCD431933F885008F333D /* San_DiegoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FCD421933F885008F333D /* San_DiegoTests.m */; };
+		2B1FCD4D1933F90E008F333D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1FCD4C1933F90E008F333D /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B1FCD3A1933F885008F333D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B1FCD091933F885008F333D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B1FCD101933F885008F333D;
+			remoteInfo = "San Diego";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B1FCD111933F885008F333D /* San Diego.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "San Diego.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1FCD141933F885008F333D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2B1FCD161933F885008F333D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2B1FCD181933F885008F333D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2B1FCD1C1933F885008F333D /* San Diego-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "San Diego-Info.plist"; sourceTree = "<group>"; };
+		2B1FCD1E1933F885008F333D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B1FCD201933F885008F333D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B1FCD221933F885008F333D /* San Diego-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "San Diego-Prefix.pch"; sourceTree = "<group>"; };
+		2B1FCD231933F885008F333D /* WSDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSDAppDelegate.h; sourceTree = "<group>"; };
+		2B1FCD241933F885008F333D /* WSDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSDAppDelegate.m; sourceTree = "<group>"; };
+		2B1FCD271933F885008F333D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		2B1FCD2A1933F885008F333D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		2B1FCD2C1933F885008F333D /* WSDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSDViewController.h; sourceTree = "<group>"; };
+		2B1FCD2D1933F885008F333D /* WSDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSDViewController.m; sourceTree = "<group>"; };
+		2B1FCD2F1933F885008F333D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2B1FCD351933F885008F333D /* San DiegoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "San DiegoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1FCD361933F885008F333D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2B1FCD3E1933F885008F333D /* San DiegoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "San DiegoTests-Info.plist"; sourceTree = "<group>"; };
+		2B1FCD401933F885008F333D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B1FCD421933F885008F333D /* San_DiegoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = San_DiegoTests.m; sourceTree = "<group>"; };
+		2B1FCD4C1933F90E008F333D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B1FCD0E1933F885008F333D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1FCD4D1933F90E008F333D /* MapKit.framework in Frameworks */,
+				2B1FCD171933F885008F333D /* CoreGraphics.framework in Frameworks */,
+				2B1FCD191933F885008F333D /* UIKit.framework in Frameworks */,
+				2B1FCD151933F885008F333D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1FCD321933F885008F333D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1FCD371933F885008F333D /* XCTest.framework in Frameworks */,
+				2B1FCD391933F885008F333D /* UIKit.framework in Frameworks */,
+				2B1FCD381933F885008F333D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B1FCD081933F885008F333D = {
+			isa = PBXGroup;
+			children = (
+				2B1FCD1A1933F885008F333D /* San Diego */,
+				2B1FCD3C1933F885008F333D /* San DiegoTests */,
+				2B1FCD131933F885008F333D /* Frameworks */,
+				2B1FCD121933F885008F333D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B1FCD121933F885008F333D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FCD111933F885008F333D /* San Diego.app */,
+				2B1FCD351933F885008F333D /* San DiegoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B1FCD131933F885008F333D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FCD4C1933F90E008F333D /* MapKit.framework */,
+				2B1FCD141933F885008F333D /* Foundation.framework */,
+				2B1FCD161933F885008F333D /* CoreGraphics.framework */,
+				2B1FCD181933F885008F333D /* UIKit.framework */,
+				2B1FCD361933F885008F333D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B1FCD1A1933F885008F333D /* San Diego */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FCD231933F885008F333D /* WSDAppDelegate.h */,
+				2B1FCD241933F885008F333D /* WSDAppDelegate.m */,
+				2B1FCD261933F885008F333D /* Main_iPhone.storyboard */,
+				2B1FCD291933F885008F333D /* Main_iPad.storyboard */,
+				2B1FCD2C1933F885008F333D /* WSDViewController.h */,
+				2B1FCD2D1933F885008F333D /* WSDViewController.m */,
+				2B1FCD2F1933F885008F333D /* Images.xcassets */,
+				2B1FCD1B1933F885008F333D /* Supporting Files */,
+			);
+			path = "San Diego";
+			sourceTree = "<group>";
+		};
+		2B1FCD1B1933F885008F333D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FCD1C1933F885008F333D /* San Diego-Info.plist */,
+				2B1FCD1D1933F885008F333D /* InfoPlist.strings */,
+				2B1FCD201933F885008F333D /* main.m */,
+				2B1FCD221933F885008F333D /* San Diego-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B1FCD3C1933F885008F333D /* San DiegoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FCD421933F885008F333D /* San_DiegoTests.m */,
+				2B1FCD3D1933F885008F333D /* Supporting Files */,
+			);
+			path = "San DiegoTests";
+			sourceTree = "<group>";
+		};
+		2B1FCD3D1933F885008F333D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FCD3E1933F885008F333D /* San DiegoTests-Info.plist */,
+				2B1FCD3F1933F885008F333D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B1FCD101933F885008F333D /* San Diego */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B1FCD461933F885008F333D /* Build configuration list for PBXNativeTarget "San Diego" */;
+			buildPhases = (
+				2B1FCD0D1933F885008F333D /* Sources */,
+				2B1FCD0E1933F885008F333D /* Frameworks */,
+				2B1FCD0F1933F885008F333D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "San Diego";
+			productName = "San Diego";
+			productReference = 2B1FCD111933F885008F333D /* San Diego.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B1FCD341933F885008F333D /* San DiegoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B1FCD491933F885008F333D /* Build configuration list for PBXNativeTarget "San DiegoTests" */;
+			buildPhases = (
+				2B1FCD311933F885008F333D /* Sources */,
+				2B1FCD321933F885008F333D /* Frameworks */,
+				2B1FCD331933F885008F333D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B1FCD3B1933F885008F333D /* PBXTargetDependency */,
+			);
+			name = "San DiegoTests";
+			productName = "San DiegoTests";
+			productReference = 2B1FCD351933F885008F333D /* San DiegoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B1FCD091933F885008F333D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WSD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Your Company";
+				TargetAttributes = {
+					2B1FCD341933F885008F333D = {
+						TestTargetID = 2B1FCD101933F885008F333D;
+					};
+				};
+			};
+			buildConfigurationList = 2B1FCD0C1933F885008F333D /* Build configuration list for PBXProject "San Diego" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B1FCD081933F885008F333D;
+			productRefGroup = 2B1FCD121933F885008F333D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B1FCD101933F885008F333D /* San Diego */,
+				2B1FCD341933F885008F333D /* San DiegoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B1FCD0F1933F885008F333D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1FCD2B1933F885008F333D /* Main_iPad.storyboard in Resources */,
+				2B1FCD301933F885008F333D /* Images.xcassets in Resources */,
+				2B1FCD281933F885008F333D /* Main_iPhone.storyboard in Resources */,
+				2B1FCD1F1933F885008F333D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1FCD331933F885008F333D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1FCD411933F885008F333D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B1FCD0D1933F885008F333D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1FCD2E1933F885008F333D /* WSDViewController.m in Sources */,
+				2B1FCD211933F885008F333D /* main.m in Sources */,
+				2B1FCD251933F885008F333D /* WSDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1FCD311933F885008F333D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1FCD431933F885008F333D /* San_DiegoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B1FCD3B1933F885008F333D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B1FCD101933F885008F333D /* San Diego */;
+			targetProxy = 2B1FCD3A1933F885008F333D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B1FCD1D1933F885008F333D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B1FCD1E1933F885008F333D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2B1FCD261933F885008F333D /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B1FCD271933F885008F333D /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		2B1FCD291933F885008F333D /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B1FCD2A1933F885008F333D /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		2B1FCD3F1933F885008F333D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B1FCD401933F885008F333D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B1FCD441933F885008F333D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B1FCD451933F885008F333D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B1FCD471933F885008F333D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "San Diego/San Diego-Prefix.pch";
+				INFOPLIST_FILE = "San Diego/San Diego-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2B1FCD481933F885008F333D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "San Diego/San Diego-Prefix.pch";
+				INFOPLIST_FILE = "San Diego/San Diego-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2B1FCD4A1933F885008F333D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/San Diego.app/San Diego";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "San Diego/San Diego-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "San DiegoTests/San DiegoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2B1FCD4B1933F885008F333D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/San Diego.app/San Diego";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "San Diego/San Diego-Prefix.pch";
+				INFOPLIST_FILE = "San DiegoTests/San DiegoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B1FCD0C1933F885008F333D /* Build configuration list for PBXProject "San Diego" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1FCD441933F885008F333D /* Debug */,
+				2B1FCD451933F885008F333D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B1FCD461933F885008F333D /* Build configuration list for PBXNativeTarget "San Diego" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1FCD471933F885008F333D /* Debug */,
+				2B1FCD481933F885008F333D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B1FCD491933F885008F333D /* Build configuration list for PBXNativeTarget "San DiegoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1FCD4A1933F885008F333D /* Debug */,
+				2B1FCD4B1933F885008F333D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B1FCD091933F885008F333D /* Project object */;
+}
