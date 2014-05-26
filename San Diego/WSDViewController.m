@@ -28,7 +28,6 @@
 }
 
 - (void)mapView:(MKMapView *)mapView regionDidChangeAnimated:(BOOL)animated {
-    NSLog(@"region changed");
     MKCoordinateRegion region = mapView.region;
     CLLocationDegrees lat, lon, delta;
     lat = region.center.latitude;
@@ -40,7 +39,6 @@
 }
 
 - (void)holyCrapTheresSanDiego {
-    
     self.youWinView.hidden = NO;
     [UIView animateWithDuration:.5 delay:0 options:(UIViewAnimationOptionAutoreverse | UIViewAnimationOptionRepeat) animations:^{
         self.youWinView.alpha = 0;
