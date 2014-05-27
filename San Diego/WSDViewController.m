@@ -48,6 +48,7 @@
 
 - (IBAction)tryAgainTouched:(id)sender {
     self.youWinView.hidden = YES;
+    self.youWinView.alpha = 1.0;
     self.tryAgainButton.hidden = YES;
     MKCoordinateRegion region = MKCoordinateRegionForMapRect(MKMapRectWorld);
     [self.mapView setRegion:region animated:YES];
